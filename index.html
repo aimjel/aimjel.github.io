@@ -1,10 +1,14 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Angel's website</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
 <body>
- <h1>Who's a bitch?</h1>
- <p>YOU.</p>
+
+<h1>Login</h1>
+
+<form action="Action.php" method="post">
+    <label for="fcode">Security code</label>
+    <input type="text" name="code" id="securityCode" class="calculator-input" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+    <input type="submit" value="Login">
+</form>
+
 </body>
 </html>
